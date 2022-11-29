@@ -1,0 +1,26 @@
+.multiple-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  background-color: green;
+  text-align: center;
+  overflow: hidden;
+
+  .multiple-item-button {
+    padding: 8px;
+  }
+
+  .multiple-item-container {
+    margin-top: 200px;
+    min-height: 200px;
+
+    .multiple-item {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    }
+  }
+}
